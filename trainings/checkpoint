@@ -1,0 +1,2 @@
+model_checkpoint_path: "real_many_to_one_nr256_lr0.01_bt1600_st500_outSigmoid_dtOrigInv"
+all_model_checkpoint_paths: "real_many_to_one_nr256_lr0.01_bt1600_st500_outSigmoid_dtOrigInv"
