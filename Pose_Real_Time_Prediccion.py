@@ -28,7 +28,7 @@ class Pose():
         self.net_input = self.graph.get_tensor_by_name('prefix/image:0')
         self.net_output = self.graph.get_tensor_by_name('prefix/concat_stage7:0')
         #Inicializar Sesion 
-        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.633)
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.433)
         self.sess = tf.compat.v1.Session(graph=self.graph,config=tf.ConfigProto(gpu_options=gpu_options))
 
     def load_graph(self,frozen_graph_filename):

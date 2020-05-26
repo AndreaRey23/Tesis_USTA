@@ -16,9 +16,9 @@ class Models_P():
         self.input_vec = self.graph.get_tensor_by_name("input_vec:0")
         self.prediction = self.graph.get_tensor_by_name("prediction:0")
         #Offset SVM
-        self.offset_svm=[0.33, 0.58, 0, -0.18, 0.37, 0.2, 0, 0.5, 0, 0, 0.2, 0.38, -0.1, 0, 0.41, 0, 0, -0.13, -0.16, 0]
+        self.offset_svm=[0.33, 0.58, 0, -0.18, 0.37, 0.2, 0, 0.5, 0, 0, 0.2, 0.38, -0.1, 0, 0.41, -0.2, 0, -0.13, -0.16, 0]
         #Offset RNN        
-        self.offset_rnn=[15, 9.1, 0, -0.5, 4, -0.4, 9.2, 5, 8, 0, 2, 2, 3, 0, 12, 8, 2, 3, 0, 2]
+        self.offset_rnn=[35, 9.1, -0.5, -0.5, 4, -0.4, 9.2, 5, 8, 0, 2, 2, 3, 0, 12, 8, 2, 3, 0, 2]
         
         #Send Last Prediction
         self.num_max_predict = 2
