@@ -39,12 +39,15 @@ Interface controls description:
 
 ![github-small](img/Interface_Explain.png)
 
-Finally, when the prediction algorithm is chosen, if at the time of choosing an algorithm a person is not found, you can see *No Person* in the label, if, on the contrary, a person is found but this person is still, *No predict* will be see how you can predict observe in the following image.
-
-![github-small](img/No_predict.png)
-
+When the prediction algorithm is chosen, if at the time of choosing an algorithm a person is not found, you can see *No Person* in the label.
+![github-small](img/No_Person.png)
+If a prediction algorithm has not been selected it will be observed *No Algorithm*
+![github-small](img/No_Algorithm.png)
 Then when selecting an algorithm and making a move this will be seen in the label, allowing the user to determine if this was correct or not.
 
-![github-small](img/Center.png)
+![github-small](img/Move_Center.png)
 
-![github-small](img/Sides.png)
+![github-small](img/Move_Sides.png)
+Then you can see how the poppy simulation performs the movement
+![github-small](img/Poppy_Move_Center.png)
+![github-small](img/Poppy_Move_Sides.png)
