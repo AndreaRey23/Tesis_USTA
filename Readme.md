@@ -47,7 +47,7 @@ Then when selecting an algorithm and making a move this will be seen in the labe
 
 ![github-small](img/Move_Center.png)
 
-![github-small](img/Move_Sides.png)
+![github-small](img/Move_Up.png)
 Then you can see how the poppy simulation performs the movement
 ![github-small](img/Poppy_Move_Center.png)
-![github-small](img/Poppy_Move_Sides.png)
+![github-small](img/Poppy_Move_Up.png)
