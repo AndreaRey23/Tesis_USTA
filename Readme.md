@@ -25,8 +25,10 @@ python Classification_Real_Time_Pose.py
 
 You should see:
 
+<p align="center">
+  <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Interface.png" width="500"> 
+</p>
 
-<img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Interface.png" width="250"> 
 Interface controls description:
 
 - **1.** Real time movement and pose visualization.
@@ -37,7 +39,9 @@ Interface controls description:
 - **6.** Movement prediction
 - **7.** Learning algorithm selector
 
-![github-small](img/Interface_Explain.png)
+<p align="center">
+  <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Interface_Explain.png" width="500"> 
+</p>
 
 When the prediction algorithm is chosen, if at the time of choosing an algorithm a person is not found, you can see *No Person* in the label.
 ![github-small](img/No_Person.png)
