@@ -25,7 +25,7 @@ python Classification_Real_Time_Pose.py
 
 You should see:
 
-![github-small](Images/Interface.png)
+![github-small](img/Interface.png)
 
 Interface controls description:
 
@@ -37,14 +37,14 @@ Interface controls description:
 - **6.** Movement prediction
 - **7.** Learning algorithm selector
 
-![github-small](Images/Interface_Explain.png)
+![github-small](img/Interface_Explain.png)
 
 Finally, when the prediction algorithm is chosen, if at the time of choosing an algorithm a person is not found, you can see *No Person* in the label, if, on the contrary, a person is found but this person is still, *No predict* will be see how you can predict observe in the following image.
 
-![github-small](Images/No_predict.png)
+![github-small](img/No_predict.png)
 
 Then when selecting an algorithm and making a move this will be seen in the label, allowing the user to determine if this was correct or not.
 
-![github-small](Images/Center.png)
+![github-small](img/Center.png)
 
-![github-small](Images/Sides.png)
+![github-small](img/Sides.png)
