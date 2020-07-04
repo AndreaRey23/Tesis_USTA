@@ -53,9 +53,9 @@ If a prediction algorithm has not been selected it will be observed *No Algorith
 </p>
 Then when selecting an algorithm and making a move this will be seen in the label, allowing the user to determine if this was correct or not and then you can see how the poppy simulation performs the movement
 
-
+<p align="center">
 | App | Simulation |
 | ------------ | ------------- |
-| <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Move_Center.png" width="250"> | <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Poppy_Move_Center.png" width="250"> |
-| ------------ | ------------- |
-| <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Move_Up.png" width="250"> | <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Poppy_Move_Up.png" width="250"> |
+| <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Move_Center.png" width="300"> | <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Poppy_Move_Center.png" width="300"> |
+| <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Move_Up.png" width="300"> | <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Poppy_Move_Up.png" width="300"> |
+  </p>
