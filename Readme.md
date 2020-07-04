@@ -1,45 +1,50 @@
-Andrea Catalina Rey Ramirez
+# LSTM and SVM based Movement Recognition
+
+This repository contains the GUI for real time pose estimation. It computes movement prediction using LSTM and SVM
+
+Pose detection is based on the CMU Perceptual Computing Lab's Open Pose, [Code](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [Paper](https://arxiv.org/pdf/1602.00134.pdf).
 
 
-In this program you can see the pose estimation in a Real time and predict the movement made (Pose estimation and prediction in Real Time).
+## Enviroment installation
 
-#REQUERIMENTS
-This program was tested on Ubuntu 16 and Ubuntu 18 on a server with a CPU of with GPU of
+Tested with Ubuntu 16.04 and 18.04, cuda 10.0 and anaconda for python 3.7, with a Nvidia RTX 2080 Ti.
 
-#INSTALLATION
+You can install the enviroment as follows (it assumes you have nvidia drivers and cuda installed):
 
-Use the package manager pip to install the dependencies.
+``` sh
+conda env create -f environment.yml
+```
 
--pip install PyQt5
--pip install numpy
--pip install cv2
--pip install time
--pip install thread
--pip install joblib
--pip install tensorflow
--pip install collections
+You are to download and save the [OpenPose model](https://drive.google.com/open?id=1Plb4OoTYA7ChHkjCqZeqtC1GvGqWnZdf) in the folder *model*.
 
-This program needs the models obtained by the recurrent neural(RNN) network and the SVM
-wich are in the folder trainings (get https://drive.google.com/open?id=1nX9qHJezh5lu2EiIORiqdBpgcfwptVwZ).
--RNN: real_many_to_one_nr256_lr0.001_bt15_st500_outSigmoid_dtOrigInv.meta
--SVM: svm_gm0.1_klpoly_c0.5_dg6.joblib
+## Testing:
 
-So that the interface can be executed the file is necessary is the file that Qt create in the project:
--QT: mainwindow.ui
+``` sh
+python Classification_Real_Time_Pose.py
+``` 
 
-Finally for the estimation pose it is necessary to have the model of folder model and 
-the file where the pose, interpolation and centralization of the pointswith respect the hip is located.
--MODEL OF POSE: pose.pb (get from https://drive.google.com/open?id=1XeSRrQmSGd281bf14R1XpmngmLoRVw2q).
--FILE POSE: Pose_Real_Time_Prediccion_Class.py
+You should see:
 
+![github-small](Images/Interface.png)
 
-#USER MANUAL:
+Interface controls description:
 
-The user should open terminal and write:
+- **1.** Real time movement and pose visualization.
+- **2.** SVM threshold.
+- **3.** RNN threshold.
+- **4.** Button to start the visualization of the movement in real time and the pose estimation, the visualization begins after a countdown of 3 seconds.
+- **5.** Button to stop the visualization of the movement in real time and the the pose estimation.
+- **6.** Movement prediction
+- **7.** Learning algorithm selector
 
-	$ cd /path/where/dowland/is
-	$ python Classification_Real_Time_Pose.py
+![github-small](Images/Interface_Explain.png)
 
-In Classification_Real_Time_Pose.py the interface is found.
+Finally, when the prediction algorithm is chosen, if at the time of choosing an algorithm a person is not found, you can see *No Person* in the label, if, on the contrary, a person is found but this person is still, *No predict* will be see how you can predict observe in the following image.
 
+![github-small](Images/No_predict.png)
 
+Then when selecting an algorithm and making a move this will be seen in the label, allowing the user to determine if this was correct or not.
+
+![github-small](Images/Center.png)
+
+![github-small](Images/Sides.png)
