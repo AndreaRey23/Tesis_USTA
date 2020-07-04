@@ -9,6 +9,12 @@ Pose detection is based on the CMU Perceptual Computing Lab's Open Pose, [Code](
 
 Tested with Ubuntu 16.04 and 18.04, cuda 10.0 and anaconda for python 3.7, with a Nvidia RTX 2080 Ti.
 
+| Operation requirements|
+| ------------ |
+| GPU Nvidia Compatible with Cuda 10.0 or higher.| 
+|Ubuntu 16.04 or higher.|
+| Python 3.6 or higher.|
+|Dependencies listed in the environment.yml file|
 You can install the enviroment as follows (it assumes you have nvidia drivers and cuda installed):
 
 ``` sh
