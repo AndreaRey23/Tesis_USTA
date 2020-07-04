@@ -25,8 +25,8 @@ python Classification_Real_Time_Pose.py
 
 You should see:
 
-![github-small](img/Interface.png)
 
+<img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Interface.png" width="250"> 
 Interface controls description:
 
 - **1.** Real time movement and pose visualization.
