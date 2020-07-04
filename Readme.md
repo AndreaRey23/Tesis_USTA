@@ -44,14 +44,18 @@ Interface controls description:
 </p>
 
 When the prediction algorithm is chosen, if at the time of choosing an algorithm a person is not found, you can see *No Person* in the label.
-![github-small](img/No_Person.png)
+<p align="center">
+  <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/No_Person.png" width="500"> 
+</p>
 If a prediction algorithm has not been selected it will be observed *No Algorithm*
-![github-small](img/No_Algorithm.png)
-Then when selecting an algorithm and making a move this will be seen in the label, allowing the user to determine if this was correct or not.
+<p align="center">
+  <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/No_Algorithm.png" width="500"> 
+</p>
+Then when selecting an algorithm and making a move this will be seen in the label, allowing the user to determine if this was correct or not and then you can see how the poppy simulation performs the movement
 
-![github-small](img/Move_Center.png)
 
-![github-small](img/Move_Up.png)
-Then you can see how the poppy simulation performs the movement
-![github-small](img/Poppy_Move_Center.png)
-![github-small](img/Poppy_Move_Up.png)
+| App | Simulation |
+| ------------ | ------------- |
+| <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Move_Center.png" width="250"> | <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Poppy_Move_Center.png" width="250"> |
+| ------------ | ------------- |
+| <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Move_Up.png" width="250"> | <img src="https://github.com/AndreaRey23/Tesis_USTA/blob/master/img/Poppy_Move_Up.png" width="250"> |
